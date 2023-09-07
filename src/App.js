@@ -4,7 +4,7 @@ const App = () => {
   const [images, setImages] = useState(null)
   const [value, setValue] = useState(null)
   const [error, setError] = useState(null)
-  const [isLoading, setIsLoading] = useState(false); // Step 1
+  const [isLoading, setIsLoading] = useState(false); 
 
 
   const clearOptions = ['']
